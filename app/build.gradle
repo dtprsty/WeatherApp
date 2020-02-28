@@ -76,6 +76,8 @@ dependencies {
     implementation 'com.google.android.material:material:1.1.0-alpha10'
     implementation "org.jetbrains.anko:anko-commons:$anko_version"
 
+    implementation "androidx.coordinatorlayout:coordinatorlayout"
+
     implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
     annotationProcessor "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
 
@@ -110,4 +112,8 @@ dependencies {
 
     //Circle Imageview
     implementation "de.hdodenhof:circleimageview:$circle_imageview_version"
+
+    //Rounded Bottom Sheet
+    implementation 'com.github.Deishelon:RoundedBottomSheet:1.0.1'
+
 }
